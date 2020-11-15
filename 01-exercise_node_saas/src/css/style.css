@@ -1,0 +1,143 @@
+.container {
+  display: grid;
+  justify-content: stretch;
+  grid-template-columns: repeat(9, auto);
+  grid-template-rows: 7rem; }
+
+.red .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  margin: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: red; }
+  .red .box .color-box-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; }
+  .red .box.darken-1 {
+    background-color: #eb0000; }
+    .red .box.darken-1 .color-box-text {
+      color: grey; }
+  .red .box.darken-2 {
+    background-color: #d60000; }
+    .red .box.darken-2 .color-box-text {
+      color: grey; }
+  .red .box.darken-3 {
+    background-color: #c20000; }
+    .red .box.darken-3 .color-box-text {
+      color: grey; }
+  .red .box.darken-4 {
+    background-color: #ad0000; }
+    .red .box.darken-4 .color-box-text {
+      color: grey; }
+  .red .box.lighten-1 {
+    background-color: #ff1414; }
+    .red .box.lighten-1 .color-box-text {
+      color: grey; }
+  .red .box.lighten-2 {
+    background-color: #ff2929; }
+    .red .box.lighten-2 .color-box-text {
+      color: grey; }
+  .red .box.lighten-3 {
+    background-color: #ff3d3d; }
+    .red .box.lighten-3 .color-box-text {
+      color: grey; }
+  .red .box.lighten-4 {
+    background-color: #ff5252; }
+    .red .box.lighten-4 .color-box-text {
+      color: grey; }
+
+.blue .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  margin: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: blue; }
+  .blue .box .color-box-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; }
+  .blue .box.darken-1 {
+    background-color: #0000eb; }
+    .blue .box.darken-1 .color-box-text {
+      color: grey; }
+  .blue .box.darken-2 {
+    background-color: #0000d6; }
+    .blue .box.darken-2 .color-box-text {
+      color: grey; }
+  .blue .box.darken-3 {
+    background-color: #0000c2; }
+    .blue .box.darken-3 .color-box-text {
+      color: grey; }
+  .blue .box.darken-4 {
+    background-color: #0000ad; }
+    .blue .box.darken-4 .color-box-text {
+      color: grey; }
+  .blue .box.lighten-1 {
+    background-color: #1414ff; }
+    .blue .box.lighten-1 .color-box-text {
+      color: grey; }
+  .blue .box.lighten-2 {
+    background-color: #2929ff; }
+    .blue .box.lighten-2 .color-box-text {
+      color: grey; }
+  .blue .box.lighten-3 {
+    background-color: #3d3dff; }
+    .blue .box.lighten-3 .color-box-text {
+      color: grey; }
+  .blue .box.lighten-4 {
+    background-color: #5252ff; }
+    .blue .box.lighten-4 .color-box-text {
+      color: grey; }
+
+.green .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  margin: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: green; }
+  .green .box .color-box-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; }
+  .green .box.darken-1 {
+    background-color: #006c00; }
+    .green .box.darken-1 .color-box-text {
+      color: grey; }
+  .green .box.darken-2 {
+    background-color: #005700; }
+    .green .box.darken-2 .color-box-text {
+      color: grey; }
+  .green .box.darken-3 {
+    background-color: #004300; }
+    .green .box.darken-3 .color-box-text {
+      color: grey; }
+  .green .box.darken-4 {
+    background-color: #002e00; }
+    .green .box.darken-4 .color-box-text {
+      color: grey; }
+  .green .box.lighten-1 {
+    background-color: #009400; }
+    .green .box.lighten-1 .color-box-text {
+      color: grey; }
+  .green .box.lighten-2 {
+    background-color: #00a900; }
+    .green .box.lighten-2 .color-box-text {
+      color: grey; }
+  .green .box.lighten-3 {
+    background-color: #00bd00; }
+    .green .box.lighten-3 .color-box-text {
+      color: grey; }
+  .green .box.lighten-4 {
+    background-color: #00d200; }
+    .green .box.lighten-4 .color-box-text {
+      color: grey; }

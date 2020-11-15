@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background-color: salmon;
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.header {
+  padding: 10px;  
+  text-align: center;
+}
+
+.header:hover {
+  background-color: brown;
+}

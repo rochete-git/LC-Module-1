@@ -1,0 +1,23 @@
+@import "_themeA.css";
+/*@import "_themeB.css";*/
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 8rem;
+    grid-template-rows: repeat(6, 5rem);
+}
+
+.box {   
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 0.5px;
+}
+
+.font {
+    padding-top: 1rem;
+}
+
+
+

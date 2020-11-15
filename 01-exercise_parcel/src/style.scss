@@ -1,0 +1,57 @@
+@import "variables";
+
+// Uso de la directiva mixin
+@mixin text-properties($set-color) {
+  color: $set-color;
+}
+
+// Contenedor principal
+.container {
+  // Uso de un grid-css para el contenedor
+  display: grid;
+  justify-content: stretch;
+  grid-template-columns: repeat($color-columns, auto);
+  grid-template-rows: 7rem;
+}
+
+// Uso de la directiva each para iterar por colores
+@each $color in $color-collection {
+  .#{$color} .box {
+    // Uso de flexbox para las cajas
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $radius;
+    margin: $margin;
+    padding-left: $padding;
+    padding-right: $padding;
+    background-color: $color;
+
+    // Texto por defecto
+    .color-box-text {
+      @include text-properties($color-text);
+      font-family: $font;
+      font-weight: bold;
+    }
+
+    // Cambiar color por nombre de selector darken-X
+    @for $d from 1 through $color-columns-darken {
+      &.darken-#{$d} {
+        background-color: darken($color, $color-step * $d);
+        .color-box-text {
+          @include text-properties($color-text-secondary);
+        }
+      }
+    }
+
+    // Cambiar color por nombre de selector lighten-Y
+    @for $d from 1 through $color-columns-lighten {
+      &.lighten-#{$d} {
+        background-color: lighten($color, $color-step * $d);
+        .color-box-text {
+          @include text-properties($color-text-secondary);
+        }
+      }
+    }
+  }
+}

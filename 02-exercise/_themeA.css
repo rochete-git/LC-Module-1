@@ -1,0 +1,29 @@
+.box {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0%;
+}
+
+.box.base {
+    background-color: red;
+    
+}
+
+.box.important {
+    background-color: darkred;
+}
+
+.box.warning {
+    background-color: lightcoral
+}
+
+.box.shadow {
+    box-shadow: -10px 10px 20px black;
+}
+
+.font .principal {
+    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif, Courier, monospace;
+}
+
+.font .secondary {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

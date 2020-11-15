@@ -1,0 +1,12 @@
+//Variables
+$color-collection: (red, blue, green);
+$color-columns: 9;
+$color-columns-darken: ($color-columns - 1) / 2;
+$color-columns-lighten: ($color-columns - 1) / 2;
+$color-step: 4%;
+$radius: 10%;
+$margin: 0.2rem;
+$padding: 1rem;
+$color-text: white;
+$color-text-secondary: grey;
+$font: (Arial, Helvetica, sans-serif);
