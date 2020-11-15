@@ -1,4 +1,6 @@
 # LC-Module-1
 Lemoncode - Module 1
 
-Challenge Exercise
+Exercises:
+- 5 mandatory exercises
+- A challenge exercise
